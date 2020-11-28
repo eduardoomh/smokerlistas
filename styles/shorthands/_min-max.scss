@@ -1,0 +1,9 @@
+@mixin min-h($value){
+    min-height: $value;
+    max-height: $value;
+}
+
+@mixin min-w($value){
+    min-width: $value;
+    max-width: $value;
+}

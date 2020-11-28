@@ -1,0 +1,13 @@
+//importamos la variables
+@import "./variables/colores";
+
+//importamos los shorthands
+@import "./shorthands/min-max";
+
+//importamos los layouts de la aplicacion
+@import "./layout/layoutBasic";
+
+//importamos los estilos de los componentes
+@import "../components//menu/menu";
+@import "../components/reutilizables/CabeceraPrincipal/cabecera";
+@import "../components//paginas//inicio/subtitulo";

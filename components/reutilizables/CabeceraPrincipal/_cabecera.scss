@@ -1,0 +1,32 @@
+.cabecera-principal{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 1fr;
+    @include min-h(22rem);
+    background-color: $gris-normal;
+
+    &__titulo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            @include min-h(9.7rem);
+            @include min-w(47rem);
+            background-color: #262323;
+            color: $gris-normal;
+            text-transform: uppercase;
+            text-align: center;
+            padding: 2em;
+            font-size: 2.5em;
+            letter-spacing: 4px;
+        }
+    }
+
+
+
+
+}

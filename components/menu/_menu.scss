@@ -1,0 +1,32 @@
+.menu{
+    display: grid;
+    grid-template-columns: 12rem 1fr 30rem;
+    grid-template-rows: 1fr;
+    @include min-h(4rem);
+    background-color: $gris-claro;
+    border: 1px solid $gris-fuerte;
+    border-width: 0 0 1px 0;
+    padding: 0 1rem;
+
+    p, li{
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+
+    p{
+        display: flex;
+        align-items: center;
+    }
+
+
+    ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        align-items: center;
+
+        li{
+            text-align: center;
+        }
+    }
+}

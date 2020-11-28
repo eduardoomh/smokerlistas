@@ -1,0 +1,8 @@
+.subtitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    @include min-h(15rem);
+    font-size: 1.6em;
+}
