@@ -1,0 +1,33 @@
+.pregunta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    @include min-h(15rem);
+    font-size: 2em;
+    padding-left: 4em;
+    padding-right: 4em;
+    border-bottom: 1px solid $gris-fuerte;
+
+    &:hover > h3{
+        transition: transform .4s;
+        transform: scale(1.1, 1.1);
+    }
+
+    h3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase();
+        background-color: $negro;
+        color: white;
+        @include min-w(37.6rem);
+        @include min-h(4rem);
+        font-size: 2rem;
+        text-transform: uppercase();
+        border-radius: 3px;
+        font-family: $fuente-podkova;
+        font-weight: normal;
+
+    }
+}

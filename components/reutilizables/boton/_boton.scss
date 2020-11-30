@@ -1,0 +1,17 @@
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include min-w(13rem);
+    @include min-h(2.7rem);
+    border-radius: 6px;
+    border: 1px solid $gris-fuerte;
+    font-weight: bold;
+    font-size: 1rem;
+    color: $gris-oscuro;
+
+    &:hover{
+        background-color: $gris-semiclaro;
+        cursor: pointer;
+    }
+}

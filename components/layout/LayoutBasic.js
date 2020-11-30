@@ -1,4 +1,5 @@
 import Menu from "../menu/Menu";
+import Footer from "../footer/Footer";
 
 export default function LayoutBasic(props){
     const {children} = props;
@@ -8,6 +9,7 @@ export default function LayoutBasic(props){
             <main className="main">
                 {children}
             </main>
+            <Footer />
         </div>
     )
 }

@@ -1,0 +1,13 @@
+.elemento-descripcion{
+    display: flex;
+    @include min-w(58rem);
+
+    p{
+        font-size: 1.2rem;
+        padding-left: .5rem;
+
+        i{
+            font-size: .8rem;
+        }
+    }
+}

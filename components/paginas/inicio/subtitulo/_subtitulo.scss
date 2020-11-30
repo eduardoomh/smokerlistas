@@ -1,0 +1,13 @@
+.subtitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    @include min-h(15rem);
+    font-size: 2em;
+    padding-left: 4em;
+    padding-right: 4em;
+    font-weight: normal;
+    font-family: $fuente-podkova;
+    border-bottom: 1px solid $gris-fuerte;
+}

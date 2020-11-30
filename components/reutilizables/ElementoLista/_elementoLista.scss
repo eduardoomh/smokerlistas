@@ -1,0 +1,44 @@
+.elemento-lista{
+    display: grid;
+    grid-template-columns: 8rem 1fr 3rem;
+    grid-template-rows: 1fr;
+    align-items: center;
+    @include min-w(58rem);
+    @include min-h(6rem);
+    background-color:  $gris-secundario;
+    border: 1px solid $gris-fuerte;
+    border-radius: 6px;
+
+    &__imagen{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @include min-h(5rem); 
+        @include min-w(5rem);
+        overflow: hidden; 
+        margin-left: 1em;
+
+        img{
+            @include min-h(5rem);
+            object-fit: cover;
+            border-radius: 50%;
+        }
+    }
+    &__contenido{
+
+        p{
+            display: flex;
+            margin: 0;
+        }
+
+        .texto_1{
+            font-size: 1.7rem;
+            color: $negro;
+        }
+        .texto_2{
+            font-size: 1.2rem;
+            color: $gris-oscuro;
+        }
+    }
+
+}

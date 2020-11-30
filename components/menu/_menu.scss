@@ -1,6 +1,6 @@
 .menu{
     display: grid;
-    grid-template-columns: 12rem 1fr 30rem;
+    grid-template-columns: 15rem 1fr 30rem;
     grid-template-rows: 1fr;
     @include min-h(4rem);
     background-color: $gris-claro;
@@ -10,12 +10,16 @@
 
     p, li{
         font-size: 1.3rem;
-        font-weight: bold;
+    
     }
 
     p{
         display: flex;
         align-items: center;
+        margin: 0;
+        font-weight: bold;
+        font-size: 1.4rem;
+
     }
 
 

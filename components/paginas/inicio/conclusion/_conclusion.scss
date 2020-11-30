@@ -1,0 +1,27 @@
+.conclusion{
+    @include min-h(100vh);
+    font-family: $fuente-podkova;
+    margin-top: 6rem;
+
+    &__uno, &__dos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__uno{
+        font-size: 2rem;
+        margin-bottom: 9rem;
+
+        .smoker-enlace{
+            color: $enlace;
+            font-weight: bold;
+        }
+    }
+
+    &__dos{
+        font-size: 1.8rem;
+
+    }
+}

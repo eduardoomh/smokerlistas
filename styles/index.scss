@@ -1,5 +1,7 @@
 //importamos la variables
 @import "./variables/colores";
+@import "./variables/tipografias";
+@import "./variables/imagenes";
 
 //importamos los shorthands
 @import "./shorthands/min-max";
@@ -8,6 +10,15 @@
 @import "./layout/layoutBasic";
 
 //importamos los estilos de los componentes
-@import "../components//menu/menu";
+@import "../components/reutilizables/boton/boton";
+@import "../components/menu/menu";
+@import "../components/footer/footer";
 @import "../components/reutilizables/CabeceraPrincipal/cabecera";
-@import "../components//paginas//inicio/subtitulo";
+@import "../components/paginas/inicio/subtitulo/subtitulo";
+@import "../components/paginas/inicio/pregunta/pregunta";
+@import "../components/paginas/inicio/preview/preview";
+@import "../components/paginas/inicio/preview/previewLista/previewLista";
+@import "../components/reutilizables/ElementoLista/elementoLista";
+@import "../components/reutilizables/ElementoLista/ElementoDescripcion/elementoDescripcion";
+@import "../components/paginas/inicio/conclusion/conclusion";
+@import "../components/reutilizables/CabeceraPrincipal/smokercard/smokercard";
